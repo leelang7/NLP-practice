@@ -1,9 +1,7 @@
-from elice_utils import EliceUtils
 import codecs
 import nltk
 from nltk.tokenize import word_tokenize
 
-elice_utils = EliceUtils()
 
 # 실습 환경에 미리 설치가 됨
 # nltk.download('punkt')
