@@ -169,7 +169,6 @@ def draw_graph(output_file_path, device):
         plt.ylabel('Loss')
         plt.legend()
         plt.savefig("train_valid_loss.png", bbox_inches='tight')
-        elice_utils.send_image("train_valid_loss.png")
     except:
         return
 
